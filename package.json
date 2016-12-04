@@ -1,0 +1,19 @@
+{
+  "name": "collector_alpha",
+  "version": "1.0.0",
+  "description": "vinyl image recognition & discogs market value",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/king-smith/collector-alpha.git"
+  },
+  "author": "Mirren King-Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/king-smith/collector-alpha/issues"
+  },
+  "homepage": "https://github.com/king-smith/collector-alpha#readme"
+}
