@@ -7,3 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Wrapper.h"
+#import <UIKit/UIKit.h>
+
+//#import "opencv2/imgcodecs/ios.h"
+
+@implementation Wrapper
+
++ (UIImage *)basicImageTest
+{
+  UIImage* image = [UIImage imageNamed:@"lena.png"];
+  
+  return image;
+}
+
+@end
