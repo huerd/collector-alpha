@@ -19,7 +19,7 @@
 
 RCT_EXPORT_METHOD(cv_basicTest:(NSString *)input)
 {
-  RCTLog(@"Basic Test: Entry: @", input);
+  RCTLog(@"Basic Test: Entry: %@", input);
 }
 
   RCT_EXPORT_METHOD(cv_callbackTest)

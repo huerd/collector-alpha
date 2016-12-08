@@ -9,7 +9,7 @@
 #ifndef Wrapper_h
 #define Wrapper_h
 
-#import "OpenCV.hpp"
+#import "OpenCV.h"
 
 
 #endif /* Wrapper_h */

@@ -9,10 +9,9 @@
 #ifndef OpenCV_hpp
 #define OpenCV_hpp
 
-#include <stdio.h>
-#include <opencv2/core.hpp>
-#include <UIKit/UIKit.h>
-
+#include <string>
+//#include <opencv2/core.hpp>
+//#include <UIKit/UIKit.h>
 
 class OpenCV
 {
