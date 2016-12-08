@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "65ACD9B207E9BC713D7F3F7304F6411DE7B5189A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8AD2F10625C593DFE6679C6066D0C18376F77DFC" : 9223372036854775807,
+    "65ACD9B207E9BC713D7F3F7304F6411DE7B5189A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8E9C026B-1EAB-4C72-8877-F2E6BCE12CA2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8AD2F10625C593DFE6679C6066D0C18376F77DFC" : "..\/opencv\/opencv_for_ios_book_samples",
+    "65ACD9B207E9BC713D7F3F7304F6411DE7B5189A" : "collector_alpha\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "collectorA",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "collectorA\/ios\/collectorA.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/king-smith\/collector-alpha.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "65ACD9B207E9BC713D7F3F7304F6411DE7B5189A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Itseez\/opencv_for_ios_book_samples.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8AD2F10625C593DFE6679C6066D0C18376F77DFC"
+    }
+  ]
+}
