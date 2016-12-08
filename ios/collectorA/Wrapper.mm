@@ -7,18 +7,38 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Wrapper.h"
+#import <stdio.h>
 #import <UIKit/UIKit.h>
+
+#import "Wrapper.h"
 
 //#import "opencv2/imgcodecs/ios.h"
 
 @implementation Wrapper
 
-+ (UIImage *)basicImageTest
++ (void) basicTest
 {
-  UIImage* image = [UIImage imageNamed:@"me.png"];
   
-  return image;
+  //UIImage* image = [UIImage imageNamed:@"me.png"];
+  
+  return;
+}
+
++ (NSString *) callbackTest
+{
+  NSString *temp = @"temp test";
+  
+  return temp;
+}
+
++ (void) startCamera
+{
+  return;
+}
+
++ (void) stopCamera
+{
+  return;
 }
 
 @end

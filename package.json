@@ -14,14 +14,13 @@
     "history": "^3.0.0",
     "react": "15.4.1",
     "react-dom": "15.4.1",
+    "react-native": "0.39.0",
     "react-redux": "4.4.6",
     "react-router": "3.0.0",
     "react-router-redux": "4.0.7",
     "redux": "3.6.0",
     "redux-form": "^6.2.0",
-    "redux-saga": "0.13.0",
-    "react-native": "0.39.0",
-    "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git"
+    "redux-saga": "0.13.0"
   },
   "devDependencies": {
     "axiom": "^0.1.6",

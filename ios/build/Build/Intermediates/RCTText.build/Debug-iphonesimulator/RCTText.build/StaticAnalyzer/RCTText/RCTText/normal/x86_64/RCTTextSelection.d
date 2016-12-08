@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/collectorA/node_modules/react-native/Libraries/Text/RCTTextSelection.m \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/collectorA/node_modules/react-native/Libraries/Text/RCTTextSelection.h \
+  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/Text/RCTTextSelection.m \
+  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/Text/RCTTextSelection.h \
   ../../React/Base/RCTConvert.h ../../React/CSSLayout/CSSLayout.h \
   ../../React/CSSLayout/CSSEnums.h ../../React/CSSLayout/CSSMacros.h \
   ../../React/Views/RCTAnimationType.h \

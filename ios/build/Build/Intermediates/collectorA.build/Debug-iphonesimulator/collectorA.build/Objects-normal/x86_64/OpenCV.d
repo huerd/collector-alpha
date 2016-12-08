@@ -1,9 +1,26 @@
 dependencies: \
-  /Users/king-smith/Documents/Work/Projects/AwesomeProject/ios/AwesomeProject/OpenCV.m \
-  /Users/king-smith/Documents/Work/Projects/AwesomeProject/ios/AwesomeProject/OpenCV.h \
-  ../node_modules/react-native/React/Base/RCTBridgeModule.h \
-  ../node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/collectorA/ios/collectorA/Wrapper.h \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/collectorA/ios/collectorA/Link.h \
-  ../node_modules/react-native/React/Base/RCTLog.h \
-  ../node_modules/react-native/React/Base/RCTAssert.h
+  /Users/king-smith/Documents/Work/Projects/collector_alpha/ios/collectorA/OpenCV.cpp \
+  /Users/king-smith/Documents/Work/Projects/collector_alpha/ios/collectorA/OpenCV.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/cvdef.h \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/hal/interface.h \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/version.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/base.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/cvstd.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/ptr.inl.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/neon_utils.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/traits.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/matx.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/saturate.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/fast_math.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/types.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/mat.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/bufferpool.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/mat.inl.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/persistence.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/operations.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/cvstd.inl.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/utility.hpp \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/core_c.h \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/types_c.h \
+  /Users/king-smith/Documents/Work/Libraries/opencv2.framework/Headers/core/optim.hpp

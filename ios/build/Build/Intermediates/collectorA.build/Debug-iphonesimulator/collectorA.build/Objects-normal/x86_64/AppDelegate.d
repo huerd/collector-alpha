@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/collectorA/ios/collectorA/AppDelegate.m \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/collectorA/ios/collectorA/AppDelegate.h \
+  /Users/king-smith/Documents/Work/Projects/collector_alpha/ios/collectorA/AppDelegate.m \
+  /Users/king-smith/Documents/Work/Projects/collector_alpha/ios/collectorA/AppDelegate.h \
   ../node_modules/react-native/React/Base/RCTBundleURLProvider.h \
   ../node_modules/react-native/React/Base/RCTRootView.h \
   ../node_modules/react-native/React/Base/RCTBridge.h \

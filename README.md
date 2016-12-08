@@ -1,2 +1,2 @@
 # collector-alpha
-Early web test version for a vinyl record collection app which uses image recognition &amp; market valuation via discogs API
+Early test version for a vinyl collection app which uses image recognition. Currently implementing React-native + OpenCV for ios.

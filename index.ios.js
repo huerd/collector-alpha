@@ -14,8 +14,8 @@ import {
 
 console.log(NativeModules);
 
-var opencv = NativeModules.OpenCV;
-opencv.imageTest("tes");
+var opencv = NativeModules.NativeCV;
+opencv.cv_basicTest("test");
 
 export default class collectorA extends Component {
   render() {

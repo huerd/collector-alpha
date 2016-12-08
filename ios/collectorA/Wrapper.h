@@ -9,17 +9,23 @@
 #ifndef Wrapper_h
 #define Wrapper_h
 
+#import "OpenCV.hpp"
+
+
 #endif /* Wrapper_h */
 
 #import <Foundation/Foundation.h>
-#import "Link.h"
 #import <UIKit/UIKit.h>
-#import "OpenCV.hpp"
+
+#import "Link.h"
 
 
 
 @interface Wrapper : NSObject
 
-+ (UIImage*) basicImageTest;
++ (void) basicTest;
++ (NSString *) callbackTest;
++ (void) startCamera;
++ (void) stopCamera;
 
 @end

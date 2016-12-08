@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/collectorA/node_modules/react-native/ReactCommon/CSSLayout/CSSLayout/CSSNodeList.c \
+  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/ReactCommon/CSSLayout/CSSLayout/CSSNodeList.c \
   ../ReactCommon/CSSLayout/CSSLayout/CSSNodeList.h \
   ../ReactCommon/CSSLayout/CSSLayout/CSSLayout.h \
   ../ReactCommon/CSSLayout/CSSLayout/CSSEnums.h \

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/collectorA/node_modules/react-native/React/Views/RCTActivityIndicatorView.m \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/collectorA/node_modules/react-native/React/Views/RCTActivityIndicatorView.h
+  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/React/Views/RCTActivityIndicatorView.m \
+  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/React/Views/RCTActivityIndicatorView.h

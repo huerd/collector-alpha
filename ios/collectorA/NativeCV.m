@@ -17,12 +17,27 @@
 
   RCT_EXPORT_MODULE();
 
-  RCT_EXPORT_METHOD(imageTest:(NSString *)name)
-  {
-    UIImage* image = [Wrapper basicImageTest];
+RCT_EXPORT_METHOD(cv_basicTest:(NSString *)input)
+{
+  RCTLog(@"Basic Test: Entry: @", input);
+}
+
+  RCT_EXPORT_METHOD(cv_callbackTest)
+{
+  RCTLog(@"Callback Test: Entry");
+}
+
+  RCT_EXPORT_METHOD(cv_startCamera)
+{
+  //UIImage* image = [Wrapper basicImageTest];
   
-    RCTLog(name);
+  RCTLog(@"Starting Camera: Entry");
   
-  }
+}
+
+  RCT_EXPORT_METHOD(cv_stopCamera)
+{
+  RCTLog(@"Stopping Camera: Entry");
+}
 
 @end

@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/collectorA/node_modules/react-native/Libraries/Network/RCTDataRequestHandler.m \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/collectorA/node_modules/react-native/Libraries/Network/RCTDataRequestHandler.h \
+  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/Network/RCTDataRequestHandler.m \
+  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/Network/RCTDataRequestHandler.h \
   ../../React/Base/RCTURLRequestHandler.h \
   ../../React/Base/RCTBridgeModule.h ../../React/Base/RCTDefines.h \
   ../../React/Base/RCTURLRequestDelegate.h \

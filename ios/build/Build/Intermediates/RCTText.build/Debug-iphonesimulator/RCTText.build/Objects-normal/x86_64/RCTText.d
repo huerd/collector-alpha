@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/collectorA/node_modules/react-native/Libraries/Text/RCTText.m \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/collectorA/node_modules/react-native/Libraries/Text/RCTText.h \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/collectorA/node_modules/react-native/Libraries/Text/RCTShadowText.h \
+  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/Text/RCTText.m \
+  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/Text/RCTText.h \
+  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/Text/RCTShadowText.h \
   ../../React/Views/RCTShadowView.h ../../React/CSSLayout/CSSLayout.h \
   ../../React/CSSLayout/CSSEnums.h ../../React/CSSLayout/CSSMacros.h \
   ../../React/Views/RCTComponent.h ../../React/Base/RCTRootView.h \
