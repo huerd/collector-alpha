@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/WebSocket/RCTWebSocketExecutor.m \
+  /Users/king-smith/Documents/Work/Projects/opencv_test/node_modules/react-native/Libraries/WebSocket/RCTWebSocketExecutor.m \
   ../../React/Base/RCTDefines.h \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/WebSocket/RCTWebSocketExecutor.h \
+  /Users/king-smith/Documents/Work/Projects/opencv_test/node_modules/react-native/Libraries/WebSocket/RCTWebSocketExecutor.h \
   ../../React/Base/RCTJavaScriptExecutor.h \
   ../../React/Base/RCTBridgeModule.h ../../React/Base/RCTInvalidating.h \
   ../../React/Base/RCTAssert.h ../../React/Base/RCTBridge.h \
@@ -14,4 +14,4 @@ dependencies: \
   ../../React/Views/RCTTextDecorationLineType.h \
   ../../React/Base/RCTLog.h ../../React/Views/RCTPointerEvents.h \
   ../../React/Base/RCTUtils.h \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.h
+  /Users/king-smith/Documents/Work/Projects/opencv_test/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.h

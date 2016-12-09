@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/Text/RCTRawTextManager.m \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/Text/RCTRawTextManager.h \
+  /Users/king-smith/Documents/Work/Projects/opencv_test/node_modules/react-native/Libraries/Text/RCTRawTextManager.m \
+  /Users/king-smith/Documents/Work/Projects/opencv_test/node_modules/react-native/Libraries/Text/RCTRawTextManager.h \
   ../../React/Views/RCTViewManager.h ../../React/Base/RCTBridgeModule.h \
   ../../React/Base/RCTDefines.h ../../React/Base/RCTConvert.h \
   ../../React/CSSLayout/CSSLayout.h ../../React/CSSLayout/CSSEnums.h \
@@ -14,5 +14,5 @@ dependencies: \
   ../../React/Base/RCTJavaScriptLoader.h \
   ../../React/Base/RCTFrameUpdate.h ../../React/Base/RCTInvalidating.h \
   ../../React/Views/UIView+React.h ../../React/Views/RCTComponent.h \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/Text/RCTShadowRawText.h \
+  /Users/king-smith/Documents/Work/Projects/opencv_test/node_modules/react-native/Libraries/Text/RCTShadowRawText.h \
   ../../React/Views/RCTShadowView.h ../../React/Base/RCTRootView.h

@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/Settings/RCTSettingsManager.m \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/Settings/RCTSettingsManager.h \
+  /Users/king-smith/Documents/Work/Projects/opencv_test/node_modules/react-native/Libraries/Settings/RCTSettingsManager.m \
+  /Users/king-smith/Documents/Work/Projects/opencv_test/node_modules/react-native/Libraries/Settings/RCTSettingsManager.h \
   ../../React/Base/RCTBridgeModule.h ../../React/Base/RCTDefines.h \
   ../../React/Base/RCTBridge.h ../../React/Base/RCTBridgeDelegate.h \
   ../../React/Base/RCTJavaScriptLoader.h \

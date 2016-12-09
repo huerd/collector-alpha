@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/Network/RCTFileRequestHandler.m \
-  /Users/king-smith/Documents/Work/Projects/collector_alpha/node_modules/react-native/Libraries/Network/RCTFileRequestHandler.h \
+  /Users/king-smith/Documents/Work/Projects/opencv_test/node_modules/react-native/Libraries/Network/RCTFileRequestHandler.m \
+  /Users/king-smith/Documents/Work/Projects/opencv_test/node_modules/react-native/Libraries/Network/RCTFileRequestHandler.h \
   ../../React/Base/RCTURLRequestHandler.h \
   ../../React/Base/RCTBridgeModule.h ../../React/Base/RCTDefines.h \
   ../../React/Base/RCTURLRequestDelegate.h \

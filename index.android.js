@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-export default class collectorA extends Component {
+export default class opencv_test extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('collectorA', () => collectorA);
+AppRegistry.registerComponent('opencv_test', () => opencv_test);
