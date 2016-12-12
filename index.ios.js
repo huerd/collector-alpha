@@ -14,6 +14,8 @@ import {
     View
 } from 'react-native';
 
+import ImageView from './app/ImageView'
+
 import Camera from 'react-native-camera';
 
 // Initialise opencv using native modules
@@ -33,11 +35,7 @@ export default class opencv_test extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Camera ref={(cam) => {
-                    this.camera = cam;
-                }} style={styles.preview} aspect={Camera.constants.Aspect.fill}>
-                    <Text style={styles.capture} onPress={this.takePicture.bind(this)}>[CAPTURE]</Text>
-                </Camera>
+                <ImageView/>
                 <Text style={styles.welcome}>
                     Welcome to React Native!
                 </Text>
