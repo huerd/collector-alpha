@@ -9,9 +9,8 @@ import { requireNativeComponent,
 console.log(UIManager);
 console.log(NativeModules);
 
-var imageViewConstants = UIManager.imageView.constants;
-
-console.log(requireNativeComponent);
+//var imageViewConstants = UIManager.imageView;
+var imageViewConstants = NativeModules.imgViewManager;
 
 class ImageView extends React.Component {
   render() {
@@ -25,14 +24,7 @@ class ImageView extends React.Component {
 }
 
 ImageView.propTypes = {
-  /**
-   * When this property is set to `true` and a valid camera is associated
-   * with the map, the camera’s pitch angle is used to tilt the plane
-   * of the map. When this property is set to `false`, the camera’s pitch
-   * angle is ignored and the map is always displayed as if the user
-   * is looking straight down onto it.
-   */
-  pitchEnabled: React.PropTypes.bool,
+
 };
 
 var styles = StyleSheet.create({
@@ -46,11 +38,11 @@ var styles = StyleSheet.create({
 
 },
   constants: {
-    //height: imageViewConstants.ComponentHeight,
-    //width: imageViewConstants.ComponentWidth
+    height: imageViewConstants.ComponentHeight,
+    width: imageViewConstants.ComponentWidth
   }
 });
 
-var RCTImage = requireNativeComponent('imageView', ImageView);
+var RCTImage = requireNativeComponent('imgView', ImageView);
 
 module.exports = ImageView;

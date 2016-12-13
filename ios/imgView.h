@@ -1,21 +1,21 @@
 //
-//  imageView.h
+//  imgView.h
 //  opencv_test
 //
-//  Created by Mirren King-Smith on 13/12/2016.
+//  Created by Mirren King-Smith on 14/12/2016.
 //  Copyright © 2016 Facebook. All rights reserved.
 //
 
-#ifndef imageView_h
-#define imageView_h
+#ifndef imgView_h
+#define imgView_h
 
 
-#endif /* imageView_h */
+#endif /* imgView_h */
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface imageView : UIView
+@interface imgView : UIView
 
 //Add properties here
 
