@@ -8,10 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "ViewController.h"
-
-// RCTMapManager.m
-#import <MapKit/MapKit.h>
-
+#import "RCTLog.h"
 
 @implementation ViewController
 
@@ -21,9 +18,16 @@ RCT_EXPORT_MODULE()
 
 - (UIView *)view
 {
-  return [[MKMapView alloc] init];
+  
+  UIView *iview=[[UIView alloc]initWithFrame:CGRectMake(0, 0, 200, 200)];
+  
+  UIImageView * imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"a.png"]];
+  
+  [iview addSubview:imageView];
+  
+  RCTLog(@"test");
+  return iview;
 }
 
-RCT_EXPORT_VIEW_PROPERTY(pitchEnabled, BOOL)
 
 @end
