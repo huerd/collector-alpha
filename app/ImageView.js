@@ -1,10 +1,26 @@
 // MapView.js
 import React from 'react';
-import { requireNativeComponent } from 'react-native';
+import { requireNativeComponent,
+        NativeModules,
+        View,
+        UIManager,
+        StyleSheet} from 'react-native';
+
+console.log(UIManager);
+console.log(NativeModules);
+
+var imageViewConstants = UIManager.imageView.constants;
+
+console.log(requireNativeComponent);
 
 class ImageView extends React.Component {
   render() {
-    return <RCTImage {...this.props} />;
+    return (
+      <View style={styles.container}>
+        <RCTImage {...this.props}
+          style={styles.constants} />
+      </View>
+    );
   }
 }
 
@@ -19,6 +35,22 @@ ImageView.propTypes = {
   pitchEnabled: React.PropTypes.bool,
 };
 
-var RCTImage = requireNativeComponent('ViewController', ImageView);
+var styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  //  height: 100,
+//    width: 100
+  //  justifyContent: 'flex-start',
+  //  alignItems: 'flex-start',
+  //  backgroundColor: '#F5FCFF',
+
+},
+  constants: {
+    //height: imageViewConstants.ComponentHeight,
+    //width: imageViewConstants.ComponentWidth
+  }
+});
+
+var RCTImage = requireNativeComponent('imageView', ImageView);
 
 module.exports = ImageView;

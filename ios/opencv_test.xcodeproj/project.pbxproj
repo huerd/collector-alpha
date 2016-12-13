@@ -22,8 +22,9 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		5961B9EB1DFE612600505D43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5961B9EA1DFE612600505D43 /* ViewController.m */; };
 		5961BA041DFE679400505D43 /* arthurtest.png in Resources */ = {isa = PBXBuildFile; fileRef = 5961BA031DFE679400505D43 /* arthurtest.png */; };
+		59CD2A771DFFE19A00B5C5BB /* imageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CD2A761DFFE19A00B5C5BB /* imageView.m */; };
+		59CD2A7B1DFFEE8D00B5C5BB /* imageViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CD2A7A1DFFEE8D00B5C5BB /* imageViewManager.m */; };
 		59DCD7571DF96040008A1FBE /* NativeCV.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DCD7521DF96040008A1FBE /* NativeCV.m */; };
 		59DCD7581DF96040008A1FBE /* OpenCV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59DCD7531DF96040008A1FBE /* OpenCV.cpp */; };
 		59DCD7591DF96040008A1FBE /* Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 59DCD7561DF96040008A1FBE /* Wrapper.mm */; };
@@ -215,9 +216,11 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = opencv_test/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		555DDB61246B439D9DD25CA2 /* RCTCamera.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RCTCamera.xcodeproj"; sourceTree = "<group>"; };
-		5961B9EA1DFE612600505D43 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = opencv_test/ViewController.m; sourceTree = "<group>"; };
-		5961BA001DFE613F00505D43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = opencv_test/ViewController.h; sourceTree = "<group>"; };
 		5961BA031DFE679400505D43 /* arthurtest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arthurtest.png; path = ../../../../arthurtest.png; sourceTree = "<group>"; };
+		59CD2A761DFFE19A00B5C5BB /* imageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = imageView.m; path = opencv_test/imageView.m; sourceTree = "<group>"; };
+		59CD2A781DFFE1AE00B5C5BB /* imageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imageView.h; sourceTree = "<group>"; };
+		59CD2A7A1DFFEE8D00B5C5BB /* imageViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = imageViewManager.m; path = opencv_test/imageViewManager.m; sourceTree = "<group>"; };
+		59CD2A7D1DFFF17400B5C5BB /* imageViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imageViewManager.h; path = opencv_test/imageViewManager.h; sourceTree = "<group>"; };
 		59DCD7511DF96040008A1FBE /* NativeCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NativeCV.h; path = ../../collector_alpha/ios/collectorA/NativeCV.h; sourceTree = "<group>"; };
 		59DCD7521DF96040008A1FBE /* NativeCV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NativeCV.m; path = ../../collector_alpha/ios/collectorA/NativeCV.m; sourceTree = "<group>"; };
 		59DCD7531DF96040008A1FBE /* OpenCV.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OpenCV.cpp; path = ../../collector_alpha/ios/collectorA/OpenCV.cpp; sourceTree = "<group>"; };
@@ -365,8 +368,7 @@
 		13B07FAE1A68108700A75B9A /* opencv_test */ = {
 			isa = PBXGroup;
 			children = (
-				5961B9EA1DFE612600505D43 /* ViewController.m */,
-				5961BA001DFE613F00505D43 /* ViewController.h */,
+				59CD2A791DFFE1FE00B5C5BB /* imageView */,
 				59DCD77B1DF9604A008A1FBE /* src */,
 				59DCD7511DF96040008A1FBE /* NativeCV.h */,
 				59DCD7521DF96040008A1FBE /* NativeCV.m */,
@@ -386,6 +388,17 @@
 				59DCD77A1DF96040008A1FBE /* libReact-tvOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		59CD2A791DFFE1FE00B5C5BB /* imageView */ = {
+			isa = PBXGroup;
+			children = (
+				59CD2A781DFFE1AE00B5C5BB /* imageView.h */,
+				59CD2A761DFFE19A00B5C5BB /* imageView.m */,
+				59CD2A7A1DFFEE8D00B5C5BB /* imageViewManager.m */,
+				59CD2A7D1DFFF17400B5C5BB /* imageViewManager.h */,
+			);
+			name = imageView;
 			sourceTree = "<group>";
 		};
 		59DCD77B1DF9604A008A1FBE /* src */ = {
@@ -817,11 +830,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5961B9EB1DFE612600505D43 /* ViewController.m in Sources */,
+				59CD2A771DFFE19A00B5C5BB /* imageView.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				59DCD7571DF96040008A1FBE /* NativeCV.m in Sources */,
 				59DCD7581DF96040008A1FBE /* OpenCV.cpp in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				59CD2A7B1DFFEE8D00B5C5BB /* imageViewManager.m in Sources */,
 				59DCD7591DF96040008A1FBE /* Wrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
