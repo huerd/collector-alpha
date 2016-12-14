@@ -14,10 +14,12 @@ import {
     View
 } from 'react-native';
 
-import ImageView from './app/ImageView'
-
+import ImageView from './app/ImageView';
+import CvCamera from './app/CvCamera';
 import Camera from 'react-native-camera';
 
+console.log(CvCamera);
+/*
 // Initialise opencv using native modules
 var opencv = NativeModules.NativeCV;
 
@@ -31,11 +33,13 @@ opencv.cv_callbackTest(10, (error, output) => {
     }
 })
 
+*/
+
 export default class opencv_test extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <ImageView/>
+                <CvCamera/>
             </View>
         );
     }

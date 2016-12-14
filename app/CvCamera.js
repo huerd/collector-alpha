@@ -10,24 +10,24 @@ import {
     StyleSheet
 } from 'react-native';
 
-//console.log(UIManager);
-//console.log(NativeModules);
+console.log(UIManager);
+console.log(NativeModules);
 
 //var imageViewConstants = UIManager.imageView;
-var imageViewConstants = NativeModules.imgViewManager;
+//var cameraViewConstants = NativeModules.cvCameraManager;
 
-class ImageView extends React.Component {
+class CvCamera extends React.Component {
     render() {
         return (
             <View style = {styles.container}>
               <StatusBar hidden={true}/>
-              <RCTImage {...this.props} style={styles.constants}/>
+              <RCTcvCamera {...this.props} style={styles.constants}/>
             </View>
     );
   }
 }
 
-ImageView.propTypes = {
+CvCamera.propTypes = {
 
 };
 
@@ -49,6 +49,7 @@ var styles = StyleSheet.create({
   }
 });
 
-var RCTImage = requireNativeComponent('imgView', ImageView);
+var RCTcvCamera = requireNativeComponent('cvCamera', CvCamera);
 
-module.exports = ImageView;
+
+module.exports = CvCamera;

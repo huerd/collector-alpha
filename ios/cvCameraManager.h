@@ -1,21 +1,22 @@
 //
-//  imgViewManager.h
+//  cvCameraManager.h
 //  opencv_test
 //
 //  Created by Mirren King-Smith on 14/12/2016.
 //  Copyright © 2016 Facebook. All rights reserved.
 //
 
-#ifndef imgViewManager_h
-#define imgViewManager_h
+#ifndef cvCameraManager_h
+#define cvCameraManager_h
 
 
-#endif /* imgViewManager_h */
+#endif /* cvCameraManager_h */
+
 
 #import "RCTViewManager.h"
 #import "RCTBridgeModule.h"
 #import <UIKit/UIKit.h>
 
-@interface imgViewManager : RCTViewManager
+@interface cvCameraManager : RCTViewManager
 
 @end

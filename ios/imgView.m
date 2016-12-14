@@ -23,13 +23,12 @@
     // Allocate and initialise a new view for the desired image
     UIImageView * imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"arthurtest.png"]];
     
-    // Render this imageView as a subview of instantiated class
+    // Render this imageView as a subview of instantiated imgView
     [self addSubview:imageView];
     
     // Set self frame to be the size of the image.
     self.frame = CGRectMake(imageView.frame.origin.x, imageView.frame.origin.y,
                             image.size.width, image.size.height);
-
   }
   return self;
 }

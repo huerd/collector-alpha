@@ -25,6 +25,8 @@
 		5961BA041DFE679400505D43 /* arthurtest.png in Resources */ = {isa = PBXBuildFile; fileRef = 5961BA031DFE679400505D43 /* arthurtest.png */; };
 		59CD2A801E004C6500B5C5BB /* imgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CD2A7F1E004C6500B5C5BB /* imgView.m */; };
 		59CD2A821E004C7300B5C5BB /* imgViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CD2A811E004C7300B5C5BB /* imgViewManager.m */; };
+		59CD2A881E00DE6800B5C5BB /* cvCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CD2A871E00DE6800B5C5BB /* cvCameraManager.m */; };
+		59CD2A8A1E00DE7300B5C5BB /* cvCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CD2A891E00DE7300B5C5BB /* cvCamera.m */; };
 		59DCD7571DF96040008A1FBE /* NativeCV.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DCD7521DF96040008A1FBE /* NativeCV.m */; };
 		59DCD7581DF96040008A1FBE /* OpenCV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59DCD7531DF96040008A1FBE /* OpenCV.cpp */; };
 		59DCD7591DF96040008A1FBE /* Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 59DCD7561DF96040008A1FBE /* Wrapper.mm */; };
@@ -221,6 +223,10 @@
 		59CD2A7F1E004C6500B5C5BB /* imgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imgView.m; sourceTree = "<group>"; };
 		59CD2A811E004C7300B5C5BB /* imgViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imgViewManager.m; sourceTree = "<group>"; };
 		59CD2A831E004C7D00B5C5BB /* imgViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgViewManager.h; sourceTree = "<group>"; };
+		59CD2A851E00DE5200B5C5BB /* cvCameraManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cvCameraManager.h; sourceTree = "<group>"; };
+		59CD2A861E00DE5B00B5C5BB /* cvCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cvCamera.h; sourceTree = "<group>"; };
+		59CD2A871E00DE6800B5C5BB /* cvCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cvCameraManager.m; sourceTree = "<group>"; };
+		59CD2A891E00DE7300B5C5BB /* cvCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cvCamera.m; sourceTree = "<group>"; };
 		59DCD7511DF96040008A1FBE /* NativeCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NativeCV.h; path = ../../collector_alpha/ios/collectorA/NativeCV.h; sourceTree = "<group>"; };
 		59DCD7521DF96040008A1FBE /* NativeCV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NativeCV.m; path = ../../collector_alpha/ios/collectorA/NativeCV.m; sourceTree = "<group>"; };
 		59DCD7531DF96040008A1FBE /* OpenCV.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OpenCV.cpp; path = ../../collector_alpha/ios/collectorA/OpenCV.cpp; sourceTree = "<group>"; };
@@ -368,12 +374,13 @@
 		13B07FAE1A68108700A75B9A /* opencv_test */ = {
 			isa = PBXGroup;
 			children = (
+				59CD2A841E00DE1700B5C5BB /* cvCamera */,
 				59CD2A791DFFE1FE00B5C5BB /* imageView */,
 				59DCD77B1DF9604A008A1FBE /* src */,
 				59DCD7511DF96040008A1FBE /* NativeCV.h */,
 				59DCD7521DF96040008A1FBE /* NativeCV.m */,
-				59DCD7531DF96040008A1FBE /* OpenCV.cpp */,
 				59DCD7541DF96040008A1FBE /* OpenCV.h */,
+				59DCD7531DF96040008A1FBE /* OpenCV.cpp */,
 				59DCD7551DF96040008A1FBE /* Wrapper.h */,
 				59DCD7561DF96040008A1FBE /* Wrapper.mm */,
 				13B07FB71A68108700A75B9A /* main.m */,
@@ -399,6 +406,17 @@
 				59CD2A831E004C7D00B5C5BB /* imgViewManager.h */,
 			);
 			name = imageView;
+			sourceTree = "<group>";
+		};
+		59CD2A841E00DE1700B5C5BB /* cvCamera */ = {
+			isa = PBXGroup;
+			children = (
+				59CD2A851E00DE5200B5C5BB /* cvCameraManager.h */,
+				59CD2A871E00DE6800B5C5BB /* cvCameraManager.m */,
+				59CD2A861E00DE5B00B5C5BB /* cvCamera.h */,
+				59CD2A891E00DE7300B5C5BB /* cvCamera.m */,
+			);
+			name = cvCamera;
 			sourceTree = "<group>";
 		};
 		59DCD77B1DF9604A008A1FBE /* src */ = {
@@ -831,10 +849,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				59CD2A881E00DE6800B5C5BB /* cvCameraManager.m in Sources */,
 				59DCD7571DF96040008A1FBE /* NativeCV.m in Sources */,
 				59CD2A821E004C7300B5C5BB /* imgViewManager.m in Sources */,
 				59DCD7581DF96040008A1FBE /* OpenCV.cpp in Sources */,
 				59CD2A801E004C6500B5C5BB /* imgView.m in Sources */,
+				59CD2A8A1E00DE7300B5C5BB /* cvCamera.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				59DCD7591DF96040008A1FBE /* Wrapper.mm in Sources */,
 			);
